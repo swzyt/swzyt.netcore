@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\swzyt.Entity\swzyt.Entity.csproj" />
+    <ProjectReference Include="..\swzyt.IService\swzyt.IService.csproj" />
+    <ProjectReference Include="..\swzyt.Model\swzyt.Model.csproj" />
+    <ProjectReference Include="..\swzyt.Service\swzyt.Service.csproj" />
+  </ItemGroup>
+
+</Project>
